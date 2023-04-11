@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Vibe2"
         tools:targetApi="31">
         <activity
-            android:name=".Relativelayout"
+            android:name=".register"
             android:exported="true" >
 
             <intent-filter>
@@ -20,21 +20,47 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+
         </activity>
 
-        <activity
-            android:name=".intro_page"
-            android:exported="true"/>
+
+
 
         <activity
-            android:name=".first_page"
+            android:name=".Relativelayout"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".intro_page"
             android:exported="false" />
+
+
         <activity
             android:name=".linearlayoutActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
+
+
+
+
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-    </application>
+            android:exported="false" >
+
+
+
+    </activity>
+
+
+
+
+
+
+
+
+
+</application>
 
 </manifest>
